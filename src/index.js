@@ -1,38 +1,21 @@
-/* import cipher from './cipher.js'; 
-
-console.log(cipher); 
-
-let info = document.getElementById("mes");
-	let result = info.options[e.selectedIndex].value;
-    prompt(result); //ID002 *///////////////////////// RIP
-
 
     import cipher from './cipher.js';
 
-    let paterno = '';
+    let palabra = " ";
     let mes = 0;
-    let cifrar = document.getElementById('botonCifrar');
-    let desCifrar = document.getElementById('botonDesCifrar');
+    let cifrar = document.getElementById ('continuarCodigo');
     
-    function obtenerDatos() {
-        paterno = document.getElementById('cifrar').value;
-        mes = parseInt(document.getElementById('movimientos').value);
+    function obtenerDatos () {
+        palabra = document.getElementById('continuarCodigo');
+        mes = parseInt(document.getElementById('mesesCode');
     }
-    
-    cifrar.onclick = function() {
-        obtenerDatos(paterno, mes);
-        document.getElementById('resultadoCifrado').value = cipher.cifrado(paterno, mes);
-    
-        document.getElementById('resultadoCifrado').innerHTML = cipher.cifrado(paterno, mes);
-    };
-    
-    desCifrar.onclick = function() {
-        obtenerDatos(paterno, mes);
-        document.getElementById('resultadoDesCifrado').value = cipher.desCifrado(paterno, mes);
-    
-        document.getElementById('resultadoDesCifrado').innerHTML = cipher.desCifrado(paterno, mes);
-    } 
-    
+
+    cifrar.onclick = function () {
+        obtenerDatos(palabra,mes);
+        document.getElementById('resultadoCifrado').value = cipher.cifrado (palabra,mes);
+        document.getElementById('resultadoCifrado').innerHTML = cipher.cifrado(palabra,mes);
+    }
+
     console.log(cipher);
     
     

@@ -7,14 +7,19 @@
   </head>
   <body>
 
-   Si olvidaste tu usuario,<br>
-   ingresa tu código<br>
+      Si es la primera vez que<br>
+      intentas acceder, te<br>
+      generaremos un código de<br>
+      usuario<br>
   
-  <div class="containerCurp">
-    <input type="text" placeholder="Ingresa tu código" name="code" required id="curpUser" >
-  </div>     
-    
-    <p><select id="mesesUser">
+
+    <div class="containerCurp">
+        <p><input type="text" placeholder="Ingresa tu CURP" name="CURP" required id="curpCode"></p>
+    </div>
+
+    <p>Por favor ingresa tu CURP <strong>sin números</strong> (11 letras)</p>
+      
+      <p><select id="mesesCode">
 
         <option>1</option>
         <option>2</option>
@@ -48,20 +53,23 @@
         <option>30</option>
         <option>31</option>
       
-      </select> Ingresa unicamente el <strong>día</strong> de tu cumpleaños </p>
+      </select> Ingresa unicamente el <strong>día</strong> de tu cumpleaños</p>
     
-   
-   <div class="ligas" id="continuarUsuario">   
-     <button>Continuar</button>
-   </div>
-
-    <div class="ligas">  
-     <a href="index.html"><button>Regresar</button></a>
+    <div class="ligas" id="continuarCodigo">
+        <button>Continuar</button>
     </div>
-          
-   <div class="imgbottom">
+
+    <div class="ligas">
+        <a href="index.html"><button>Regresar</button></a></p>
+    </div>
+
+    <div id="clabeCifrada">
+      <label class="dato" id="resultadoCifrado">XXXX</label>
+    </div>
+
+    <div class="imgbottom">
       <img src="libroremoto.png" alt="Avatar" class="avatar">
-   </div>
+    </div>
 
     <script src="index.js" type="module"></script>
   </body>
