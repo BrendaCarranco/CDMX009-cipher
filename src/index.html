@@ -5,31 +5,36 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
 
-    <center>
-    <div>
-      <div class="imgcontainer">
-        <img src="libroremoto.png" alt="Avatar" class="avatar">
-      </div>
-      
-      <p>¡Hola! Bienvenido al acceso</p>
-      <p>de tu escuela</p> 
-      <p>:-)</p>
-
-      <div class="container">
-
-        <input type="text" placeholder="Usuario" name="user" required>
-        <input type="password" placeholder="Código" name="code" required>
-        <button type="submit">Entrar</button>
-
-      </div>
-
-        <a href="code.html"><button>No tengo código</button></a>
-        <a href="user.html"><button>Olvidé mi usuario</button></a>
-
+    <div class="imgcontainer">
+      <img src="libroremoto.png" alt="Avatar" class="avatar">
     </div>
-  </center>
+      
+    <h1>¡Hola! Bienvenido al acceso
+    de tu escuela
+    :-)</h1>
+
+    <div id="container1">
+      <input type="text" placeholder="Usuario" name="user" required>
+    </div>
+
+    <div id="container2">
+      <p><input type="password" placeholder="Código" name="code" required></p>
+    </div>
+
+    <div id="entrar">
+      <button type="submit">Entrar</button>
+    </div>  
+    
+
+    <div class="ligas">
+      <p><a href="code.html"><button>No tengo código</button></a></p>
+      <p><a href="user.html"><button>Olvidé mi usuario</button></a></p>      
+    </div>
+
     <script src="index.js" type="module"></script>
+  
   </body>
 </html>
