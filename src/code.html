@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Crear código</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
 
-      Si es la primera vez que<br>
-      intentas acceder, te<br>
-      generaremos un código de<br>
-      usuario<br>
-  
+<head>
+  <meta charset="utf-8">
+  <title>Crear código</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <div class="containerCurp">
-        <p><input type="text" placeholder="Ingresa tu CURP" name="CURP" required id="curpCode"></p>
-    </div>
+<body>
 
-    <p>Por favor ingresa tu CURP <strong>sin números</strong> (11 letras)</p>
-      
-      <p><select id="mesesCode">
+  Si es la primera vez que<br>
+  intentas acceder, te<br>
+  generaremos un código de<br>
+  usuario<br>
 
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>6</option>
-        <option>7</option>
-        <option>8</option>
-        <option>9</option>
-        <option>10</option>
-        <option>11</option>
-        <option>12</option>
-        <option>13</option>
-        <option>14</option>
-        <option>15</option>
-        <option>16</option>
-        <option>17</option>
-        <option>18</option>
-        <option>19</option>
-        <option>20</option>
-        <option>21</option>
-        <option>22</option>
-        <option>23</option>
-        <option>24</option>
-        <option>25</option>
-        <option>26</option>
-        <option>27</option>
-        <option>28</option>
-        <option>29</option>
-        <option>30</option>
-        <option>31</option>
-      
-      </select> Ingresa unicamente el <strong>día</strong> de tu cumpleaños</p>
-    
-    <div class="ligas" id="continuarCodigo">
-        <button>Continuar</button>
-    </div>
 
-    <div class="ligas">
-        <a href="index.html"><button>Regresar</button></a></p>
-    </div>
+  <div class="containerCurp">
+    <p><input type="text" placeholder="Ingresa tu CURP" name="CURP" required id="curpCode"></p>
+  </div>
 
-    <div id="clabeCifrada">
-      <label class="dato" id="resultadoCifrado">XXXX</label>
-    </div>
+  <p>Por favor ingresa tu CURP <strong>sin números</strong> (11 letras)</p>
 
-    <div class="imgbottom">
-      <img src="libroremoto.png" alt="Avatar" class="avatar">
-    </div>
+  <p><select id="mesesCode">
 
-    <script src="index.js" type="module"></script>
-  </body>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      <option>6</option>
+      <option>7</option>
+      <option>8</option>
+      <option>9</option>
+      <option>10</option>
+      <option>11</option>
+      <option>12</option>
+      <option>13</option>
+      <option>14</option>
+      <option>15</option>
+      <option>16</option>
+      <option>17</option>
+      <option>18</option>
+      <option>19</option>
+      <option>20</option>
+      <option>21</option>
+      <option>22</option>
+      <option>23</option>
+      <option>24</option>
+      <option>25</option>
+      <option>26</option>
+      <option>27</option>
+      <option>28</option>
+      <option>29</option>
+      <option>30</option>
+      <option>31</option>
+
+    </select> Ingresa unicamente el <strong>día</strong> de tu cumpleaños</p>
+
+  <div class="ligas" id="continuarCodigo">
+    <button>Continuar</button>
+  </div>
+
+  <div class="ligas">
+    <a href="index.html"><button>Regresar</button></a></p>
+  </div>
+
+  <div id="fraseCifrada">
+    <p><label class="dato" id="resultadoCifrado">Tú codigo es:</label></p>
+    <p id="resultado"></p>
+  </div>
+
+  <div class="imgbottom">
+    <img src="libroremoto.png" alt="Avatar" class="avatar">
+  </div>
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
-
