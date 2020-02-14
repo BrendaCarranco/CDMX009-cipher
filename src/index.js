@@ -19,13 +19,8 @@ document.getElementById('continuarCodigo').onclick = function () {
     let result = cipher.encode(texto, offset)
     console.log("apostamos a que devuelve vacio?", result)
     //3.- mostramos resultado en el html
-    document.getElementById('resultado').innerText = result
+    document.getElementById('resultado').innerText = ('Tu código es: ' + result)
 };
 //document.getElementById('resultadoCifrado').value = cipher.cifrado(palabra, mes);
 console.log(cipher);
-
-
-
-
-
 
