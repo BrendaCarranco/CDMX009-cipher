@@ -48,3 +48,11 @@ p {
 input{
     font: 'Red Hat Display', sans-serif;
 }
+
+
+.imgbottom {
+    position: static;
+    left: 151px;
+    top: 577px;
+
+}

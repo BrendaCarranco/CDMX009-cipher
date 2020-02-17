@@ -1,7 +1,7 @@
 # Cifrado César 
 ## Aplicación de Acceso Remoto 
 
-Mi app es para generar usuarios y códigos de acceso a la biblioteca digital de una escuela, de manera remota. 
+Mi app es para generar usuarios y códigos de acceso a la biblioteca digital de una escuela de manera remota. 
 
 <img src = "figmafinal.png">
 
@@ -13,7 +13,7 @@ Mi app es para generar usuarios y códigos de acceso a la biblioteca digital de 
 
 3. <img src = 'primerprototipo.jpeg'>
 
-4. Con base en los feedbacks, limpié mi código al mejorar mi identación en cada uno de mis archivos, esto me ayudó a que tanto yo como los coaches pudieran entender mejor mi código. También comprendí mejor mi código, no es solo copy paste, sino el escribir en papel mi fórmula me ayudó a poder entender qué es lo que estaba haciendo y que tenía que modificar para conseguir la funcionalidad que buscaba. En cuanto al diseño, unicamente se me dijo que completara algunos "espacios vacíos" que tenía en mi framwork para mejorar el flujo del diseño. 
+4. Con base en los feedbacks, limpié mi código al mejorar mi identación en cada uno de mis archivos, esto me ayudó a que tanto yo como los coaches pudieran entender mejor mi código. También comprendí mejor mi código, no es solo copy paste, sino el escribir en papel mi fórmula me ayudó a poder entender qué es lo que estaba haciendo y que tenía que modificar para conseguir la funcionalidad que buscaba. En cuanto al diseño, unicamente se me dijo que completara algunos "espacios vacíos" que tenía en mi framework para mejorar el flujo del diseño. 
 
 ------IMÁGENES DEL PROYECTO FINAL------
 
