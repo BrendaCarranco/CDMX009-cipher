@@ -1,5 +1,6 @@
 body{  
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Red Hat Display';
+    font-size: 18px;
     line-height: 30px;    
     position: relative;
     background: #FFFFFF;
@@ -7,52 +8,44 @@ body{
   
 }
 
-h1{ 
-    text-align: center;
-    font: 'Red Hat Display', sans-serif;
-    font-family:"Red Hat Display", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    color: #000000;
-}
-
-#entrar {
-    text-align: center;
-    font: 'Red Hat Display', sans-serif;
-    background-color: pink;
-
-}
-
 button {
-    text-align: center;
-    font: 'Red Hat Display', sans-serif;
-    border-radius: 65px 65px 65px 65px;
-    -moz-border-radius: 65px 65px 65px 65px;
-    -webkit-border-radius: 65px 65px 65px 65px;
-    border: 0px solid #000000;
-    background-color: rgba(255, 255, 255, 0);
-    text-align: center;
+    border: none;
+    background: rgb(211, 245, 247);
+    font-family: 'Red Hat Display';
+}
+
+.container {
+
+    font-family: 'Red Hat Display';
+    border: 2px solid #000000;
+box-sizing: border-box;
+border-radius: 50px;
+width: 265px;
+height: 45px;
+left: 55px;
+top: 263px;
+}
+
+.ligas {
+    background: rgba(255, 255, 0, 0)!important;
+    font-family: 'Red Hat Display';
     font-size: 16px;
-    line-height: 21px;
 }
 
-p {
-    font: 'Red Hat Display', sans-serif;
-    line-height: 25px;
-    text-align: center;
+h1{
+    font-family: 'Red Hat Display';
+    font-size: 18px;
 }
 
-input{
-    font: 'Red Hat Display', sans-serif;
+select{
+    font-family: 'Red Hat Display';  
 }
 
+#instruc{
+    font-size: 15px !important;
+}
 
-.imgbottom {
-    position: static;
-    left: 151px;
-    top: 577px;
-
+footer{
+position: relative ;
+top: 100px;
 }

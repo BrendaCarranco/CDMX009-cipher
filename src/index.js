@@ -1,44 +1,39 @@
-/* import cipher from './cipher.js';
-
-document.getElementById('continuarCodigo').onclick = function () {
-
-    // 1.- necesitamos el texto y el numero
-    let texto = document.getElementById('curpCode').value;
-    let offset = parseInt(document.getElementById('mesesCode').value);
-    // 2.- usamos cipher para convertir
-    let result = cipher.encode(texto, offset);
-    console.log(result);
-    //3.- mostramos resultado en el html
-    document.getElementById('resultado').innerText = ('Tu código es: ' + result);
-};
-
-console.log(cipher);
-
- */
-
 import cipher from './cipher.js';
 
-let word = '';
-let offset = 0;
-let cifrar = document.getElementById('continuarCodigo');
-let descifrar = document.getElementById('continuarUsuario');
+continuarCode.onclick = function () {
+    let word = document.getElementById('curpCode').value;
+    let offset = parseInt(document.getElementById('mesesCode').value);
+    let result = cipher.encode(word, offset);
+    console.log(result);
+    document.getElementById('resultado').innerHTML = 'Tú código es ' + result;
+};
+
+continuarUser.onclick = function () {                       //deshabilitar
+    let word = document.getElementById('curpUser').value;
+    let offset = parseInt(document.getElementById('mesesUser').value);
+    let result = cipher.decode(word, offset);
+    console.log(result);
+    document.getElementById('resultadoDes').innerHTML = 'Tú código es: ' + result;
+};
 
 
-cifrar.onclick = function () {
-    // 1.- necesitamos el texto y el numero     
+
+
+
+
+
+/*document.getElementById('continuarCode').onclick = function () {
+
+    // 1.- necesitamos el texto y el numero
     let word = document.getElementById('curpCode').value;
     let offset = parseInt(document.getElementById('mesesCode').value);
     // 2.- usamos cipher para convertir
-    let result = cipher.code(word, offset);
-    console.log(result);
+    let result = cipher.encode(word, offset);
+    console.log(result); // (mostramos en consola para verificar que haga la f{})
     //3.- mostramos resultado en el html
     document.getElementById('resultado').innerText = ('Tu código es: ' + result);
-}; 
+}; */
 
-descifrar.onclick = function () {
-let wordUser = document.getElementById('codeUser').value;
-let offsetUser = parseInt (document.getElementById('mesesUser').value);
-let resultUser = cipher.decode (wordUser, offsetUser);
-document.getElementById('resultadoUser').innerHTML = ('Tú codigo es ' + resultUser);
 
-};
+
+console.log(cipher);

@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <title>Crear código</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,12 +15,10 @@
   generaremos un código de<br>
   usuario<br>
 
+  <input type="text" class="container" placeholder="    Ingresa tu CURP" required id="curpCode">
 
-  <div class="containerCurp">
-    <p><input type="text" placeholder="Ingresa tu CURP" name="CURP" id="curpCode" required></p>
-  </div>
 
-  <p>Por favor ingresa tu CURP <strong>sin números</strong> (11 letras)</p>
+  <p id="instruc">Por favor ingresa tu CURP <strong>sin números</strong> (11 letras)</p>
 
   <p><select id="mesesCode">
 
@@ -55,24 +54,18 @@
       <option>30</option>
       <option>31</option>
 
-    </select> Ingresa unicamente el <strong>día</strong> de tu cumpleaños</p>
+    </select> Ingresa unicamente el <strong> día</strong> de tu cumpleaños</p>
 
-  <div class="ligas" id="continuarCodigo">
-    <button>Continuar</button>
+    <button id="continuarCode" class="ligas">Continuar</button>
+
+
+  <div id="fraseCifrada">
+    <p id="resultado"></p> 
   </div>
 
-    <p id="resultado"></p>
-  
+    <a href="index.html"><button class="ligas">Regresar</button></a>
 
-  <div class="ligas">
-    <a href="index.html"><button>Regresar</button></a></p>
-  </div>
-
-<footer>
-  <div class="imgbottom">
-    <img src="libroremoto.png" alt="Avatar">
-  </div>
-</footer>
+    <footer><img src="libroremoto.png"></footer>
 
   <script src="index.js" type="module"></script>
 </body>

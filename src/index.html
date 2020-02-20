@@ -3,34 +3,28 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>Acceso Remoto</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <div class="imgcontainer">
-    <img src="libroremoto.png" alt="Avatar" class="avatar">
+    <img src="libroremoto.png">
   </div>
 
   <h1>¡Hola! Bienvenido al acceso<br>
     de tu escuela<br>
     :-)<br></h1>
 
-  <div class="container">
-    <input type="text" placeholder="Usuario" name="user" required>
-    <p></p><input type="password" placeholder="Código" name="code" required></p>
-  </div>
+    <p><input type="text" class="container" required placeholder="  Usuario" id='userIndex'></p>
+    <p><input type="password" class="container" placeholder="  Código de acceso"id='passwordIndex' required></p>
 
-  <div id="entrar">
-    <button type="submit">Entrar</button>
-  </div>
+    <button type="submit" id="entrar">Entrar</button>
 
-
-  <div class="ligas">
-    <p><a href="code.html"><button>No tengo código</button></a></p>
-    <p><a href="user.html"><button>Olvidé mi usuario</button></a></p>
-  </div>
+    <p><a href="code.html"><button class="ligas">No tengo código</button></a></p>
+    <p><a href="user.html"><button class="ligas">Olvidé mi usuario</button></a></p>
 
   <script src="index.js" type="module"></script>
 

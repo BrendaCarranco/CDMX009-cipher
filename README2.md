@@ -15,7 +15,9 @@ Mi app es para generar usuarios y códigos de acceso a la biblioteca digital de 
 
 4. Con base en los feedbacks, limpié mi código al mejorar mi identación en cada uno de mis archivos, esto me ayudó a que tanto yo como los coaches pudieran entender mejor mi código. También comprendí mejor mi código, no es solo copy paste, sino el escribir en papel mi fórmula me ayudó a poder entender qué es lo que estaba haciendo y que tenía que modificar para conseguir la funcionalidad que buscaba. En cuanto al diseño, unicamente se me dijo que completara algunos "espacios vacíos" que tenía en mi framework para mejorar el flujo del diseño. 
 
-------IMÁGENES DEL PROYECTO FINAL------
+<img src = "index.png">
+<img src = "code.png">
+<img src = "user.png">
 
 Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplicar** en tu proyecto.
 
@@ -23,24 +25,24 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 
 - [x] Diseñar la aplicación pensando y entendiendo al usuario.
 - [x] Crear prototipos para obtener feedback e iterar.
-- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
 - [x] Uso correcto de HTML semántico.
-- [ ] Uso de selectores de CSS.
+- [x] Uso de selectores de CSS.
 - [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
 - [x] Uso de selectores del DOM.
-- [ ] Manejo de eventos del DOM.
+- [x] Manejo de eventos del DOM.
 - [ ] Manipulación dinámica del DOM.
 
 ### Javascript
 
 - [x] Manipulación de strings.
-- [ ] Uso de condicionales (if-else | switch).
+- [x] Uso de condicionales (if-else | switch).
 - [ ] Uso de bucles (for | do-while).    
 - [x] Uso de funciones (parámetros | argumentos | valor de retorno).
 - [x] Declaración correcta de variables (const & let).
@@ -53,7 +55,7 @@ Reflexiona y luego marca los objetivos que has llegado a **entender** y **aplica
 - [x] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
-- [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+- [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
