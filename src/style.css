@@ -18,12 +18,12 @@ button {
 
     font-family: 'Red Hat Display';
     border: 2px solid #000000;
-box-sizing: border-box;
-border-radius: 50px;
-width: 265px;
-height: 45px;
-left: 55px;
-top: 263px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 265px;
+    height: 45px;
+    left: 55px;
+    top: 263px;
 }
 
 .ligas {
@@ -46,6 +46,6 @@ select{
 }
 
 footer{
-position: relative ;
-top: 100px;
+    position: relative ;
+    top: 100px;
 }

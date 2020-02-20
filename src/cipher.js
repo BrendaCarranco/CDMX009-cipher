@@ -15,8 +15,6 @@ const cipher = {
     return result;
   },
 
-  decode: (word, offset) => {
-    let result = ''
     decode: (word, offset) => {
       let result = ''
       for (let i = 0; i < word.length; i++) {
@@ -29,5 +27,4 @@ const cipher = {
       }
     }
   }
-}
 export default cipher
