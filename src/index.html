@@ -4,27 +4,165 @@
 <head>
   <meta charset="utf-8">
   <title>Acceso Remoto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display|Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <div class="imgcontainer">
-    <img src="libroremoto.png">
-  </div>
+  <section class="home" id="p1">
 
-  <h1>¡Hola! Bienvenido al acceso<br>
-    de tu escuela<br>
-    :-)<br></h1>
+    <div class="imgContainer">
+      <img src="libroremoto.png" class="indexImg">
+    </div>
 
-    <p><input type="text" class="container" required placeholder="  Usuario" id='userIndex'></p>
-    <p><input type="password" class="container" placeholder="  Código de acceso"id='passwordIndex' required></p>
+    <div class="intro">
+      <h1>¡Hola! Bienvenido al acceso<br>
+        de tu escuela<br>
+        :-)<br></h1>
+    </div>
 
-    <button type="submit" id="entrar">Entrar</button>
+    <div class="containers">
+      <p><input type="text" class="container" required placeholder="  Usuario" id="userIndex"></p>
+      <p><input type="password" class="container" required placeholder="  Código de acceso" id="passwordIndex"></p>
+      <button type="submit" id="enter" class="btnSubmit">Entrar</button>
+    </div>
 
-    <p><a href="code.html"><button class="ligas">No tengo código</button></a></p>
-    <p><a href="user.html"><button class="ligas">Olvidé mi usuario</button></a></p>
+    <div class="links">
+      <p><button class="btnLink" id="noCode">No tengo código</button></p>
+      <p><button class="btnLink" id="noUser">Olvidé mi usuario</button></p>
+    </div>
+
+  </section>
+
+  <section class="code hide" id="p2">
+
+    <p class="codeInstruction"> Si es la primera vez que<br>
+      intentas acceder, te<br>
+      generaremos un código de<br>
+      usuario<br></p>
+
+    <div class="containers">
+      <input type="text" class="container" placeholder="    Ingresa tu CURP" required id="curpCode">
+    </div>
+
+    <p class="instruc">Ingresa tu CURP <strong>sin números</strong> (11 letras)</p>
+
+    <div class="number">
+      <select id="mesesCode" class="selectBox">
+
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+
+      </select>
+
+      <p class="selectI"> Ingresa unicamente el <br><strong> día </strong>de tu cumpleaños.</p>
+    </div>
+
+    <div id="fraseCifrada" class='phrase'>
+      <p id="resultado" class="result"></p>
+    </div>
+
+    <div class="links2">
+      <p><a href="index.html"><button class="btnLink">Regresar</button></a>
+        <button id="continueCode" class="btnLink">Continuar</button></p>
+    </div>
+
+    <footer><img src="libroremoto.png" class="foot"></footer>
+
+  </section>
+
+  <section class="user hide" id="p3">
+
+    <p class="codeInstruction">
+      Si olvidaste tu usuario,<br>
+      ingresa tu código<br></p>
+
+    <div class="containers">
+      <input type="text" class="container" placeholder="  Ingresa tu código" required id="curpUser">
+    </div>
+
+    <div class="number">
+      <select id="mesesUser" class="selectBox">
+
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>15</option>
+        <option>16</option>
+        <option>17</option>
+        <option>18</option>
+        <option>19</option>
+        <option>20</option>
+        <option>21</option>
+        <option>22</option>
+        <option>23</option>
+        <option>24</option>
+        <option>25</option>
+        <option>26</option>
+        <option>27</option>
+        <option>28</option>
+        <option>29</option>
+        <option>30</option>
+        <option>31</option>
+
+      </select>
+
+      <p class="selectI">Ingresa unicamente el <strong>día</strong> de tu cumpleaños.</p>
+    </div>
+
+    <p id="resultadoDes" class="phrase"></p>
+
+    <div class="links2">
+      <p><a href="index.html"><button class="btnLink">Regresar</button></a>
+        <button id="continueUser" class="btnLink">Continuar</button></p>
+    </div>
+
+    <footer><img src="libroremoto.png" class="foot"></footer>
+
+  </section>
 
   <script src="index.js" type="module"></script>
 
